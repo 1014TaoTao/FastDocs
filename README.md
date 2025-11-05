@@ -28,6 +28,13 @@ FastDocs/
 
 ```
 
+## 🔗 源码仓库
+
+| 平台 | 仓库地址 |
+|------|----------|
+| GitHub | [FastapiAdmin主工程](https://github.com/1014TaoTao/FastapiAdmin.git) \| [FastDocs官网](https://github.com/1014TaoTao/FastDocs.git) \| [FastApp移动端](https://github.com/1014TaoTao/FastApp.git) |
+| Gitee  | [FastapiAdmin主工程](https://gitee.com/tao__tao/FastapiAdmin.git) \| [FastDocs官网](https://gitee.com/tao__tao/FastDocs.git) \| [FastApp移动端](https://gitee.com/tao__tao/FastApp.git) |
+
 ## 官网展示
 
 ![在线文档](https://gitee.com/tao__tao/FastDocs/raw/main/src/public/help.png)
