@@ -41,7 +41,8 @@ export default defineConfig({
                 text: '开发指南', 
                 items: [
                     { text: '前端开发', link: '/development/frontend' },
-                    { text: '后端开发', link: '/development/backend' }
+                    { text: '后端开发', link: '/development/backend' },
+                    { text: '小程序开发', link: '/development/miniprogram' }
                 ] 
             },
             {
@@ -69,7 +70,8 @@ export default defineConfig({
                 collapsed: false,
                 items: [
                     { text: '前端开发指南', link: '/development/frontend' },
-                    { text: '后端开发指南', link: '/development/backend' }
+                    { text: '后端开发指南', link: '/development/backend' },
+                    { text: '小程序开发指南', link: '/development/miniprogram' }
                 ]
             },
             {

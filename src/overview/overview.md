@@ -13,6 +13,8 @@ outline: "deep"
   <p align="center" style="display: flex; justify-content: center; align-items: center; margin-top: 10px;">
     <a href="https://gitee.com/tao__tao/FastapiAdmin"><img src="https://gitee.com/tao__tao/FastapiAdmin/badge/star.svg?theme=dark" alt="Gitee Stars"></a>
     <a href="https://github.com/1014TaoTao/FastapiAdmin"><img src="https://img.shields.io/github/stars/1014TaoTao/FastapiAdmin?style=social" alt="GitHub Stars"></a>
+    <a href="https://github.com/1014TaoTao/FastApp"><img src="https://img.shields.io/github/stars/1014TaoTao/FastApp?style=social" alt="FastApp Stars"></a>
+    <a href="https://github.com/1014TaoTao/FastDocs"><img src="https://img.shields.io/github/stars/1014TaoTao/FastDocs?style=social" alt="FastDocs Stars"></a>
     <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-orange.svg" alt="License"></a>
     <img src="https://img.shields.io/badge/Python-≥3.10-blue" alt="Python">
     <img src="https://img.shields.io/badge/NodeJS-≥20.0-blue" alt="NodeJS">
@@ -29,18 +31,55 @@ outline: "deep"
 
 ## 📦工程结构概览
 
+项目已拆分为三个独立的仓库，便于独立开发和维护：
+
+### 1. FastapiAdmin 主工程
+
 ```sh
-FastapiAdmin
-├─ backend               # 后端工程
-├─ frontend              # 前端工程
-├─ fastapp               # 小程序工程
-├─ fastdocs              # 官网文档
-├─ devops                # 部署工程
-├─ docker-compose.yaml   # 部署文件
-├─ start.sh              # 部署脚本
-├─ LICENSE               # 许可协议
-|─ README.en.md          # 英文文档
-└─ README.md             # 中文文档
+FastapiAdmin/
+├─ backend/              # 后端工程
+│  ├─ app/              # 应用核心代码
+│  ├─ alembic/          # 数据库迁移
+│  ├─ env/              # 环境配置
+│  └─ requirements.txt  # Python 依赖
+├─ frontend/            # 前端工程
+│  ├─ src/              # 源代码
+│  ├─ public/           # 静态资源
+│  └─ package.json      # 前端依赖
+├─ devops/              # 部署工程
+├─ docker-compose.yaml  # 部署文件
+├─ start.sh             # 部署脚本
+├─ LICENSE              # 许可协议
+└─ README.md            # 项目文档
+```
+
+### 2. FastApp 移动端
+
+```sh
+FastApp/
+├─ src/                 # 源代码目录
+│  ├─ api/             # API 接口
+│  ├─ pages/           # 页面文件
+│  ├─ components/      # 组件
+│  ├─ store/           # 状态管理
+│  └─ utils/           # 工具函数
+├─ public/             # 静态资源
+├─ package.json        # 项目依赖
+└─ README.md           # 项目文档
+```
+
+### 3. FastDocs 官网文档
+
+```sh
+FastDocs/
+├─ src/                # 文档源码
+│  ├─ development/     # 开发文档
+│  ├─ overview/        # 概述文档
+│  ├─ quickstart/      # 快速开始
+│  └─ index.md         # 首页
+├─ .vitepress/         # VitePress 配置
+├─ package.json        # 项目依赖
+└─ README.md           # 项目文档
 ```
 
 ## ✨核心亮点

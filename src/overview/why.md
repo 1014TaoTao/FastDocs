@@ -69,8 +69,11 @@ graph TB
 > ✅ 如果你需要一个技术先进、功能丰富、易于扩展、容易上手、且完全开源的中后台快速开发平台，**Fastapi-Vue3-Admin** 是一个绝佳的选择。尤其适合 Python + Vue3 技术栈的团队或个人快速构建企业级管理系统。
 
 📌 **项目地址**：
-- Gitee：[https://gitee.com/tao__tao/FastapiAdmin](https://gitee.com/tao__tao/FastapiAdmin)
-- GitHub：[https://github.com/1014TaoTao/FastapiAdmin](https://github.com/1014TaoTao/FastapiAdmin)
+- **GitHub**：
+  - [FastapiAdmin 主工程](https://github.com/1014TaoTao/FastapiAdmin.git)
+  - [FastApp 移动端](https://github.com/1014TaoTao/FastApp.git)
+  - [FastDocs 官网文档](https://github.com/1014TaoTao/FastDocs.git)
+- **Gitee**：[https://gitee.com/tao__tao/FastapiAdmin](https://gitee.com/tao__tao/FastapiAdmin)
 - [联系 or 加入我们](about.md#关于我们)
 
 🙌 **无论你是否喜欢这个项目，都希望你能够给个 ⭐ Star 支持！小小的种子蕴含着大大的能量，终有一天星星之火，可以燎原。**

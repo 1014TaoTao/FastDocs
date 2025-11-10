@@ -19,8 +19,13 @@ title: 关于我们
 
 ## 🌐 社区
 
-- [GitHub](https://github.com/1014TaoTao/FastapiAdmin)
-- [Gitee](https://gitee.com/tao__tao/FastapiAdmin)
+### GitHub
+- [FastapiAdmin 主工程](https://github.com/1014TaoTao/FastapiAdmin.git)
+- [FastApp 移动端](https://github.com/1014TaoTao/FastApp.git)
+- [FastDocs 官网文档](https://github.com/1014TaoTao/FastDocs.git)
+
+### Gitee
+- [FastapiAdmin](https://gitee.com/tao__tao/FastapiAdmin)
 - [GitCode](https://gitcode.com/qq_36002987/FastapiAdmin)
 
 ## 扫码交流

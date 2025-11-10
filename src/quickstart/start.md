@@ -32,15 +32,20 @@ title: 快速开始
 
 ```sh
 # 克隆代码到本地
-git clone https://gitee.com/tao__tao/FastapiAdmin.git
-或
+# FastapiAdmin 主工程
 git clone https://github.com/1014TaoTao/FastapiAdmin.git
+# FastApp 移动端
+git clone https://github.com/1014TaoTao/FastApp.git
+# FastDocs 官网文档
+git clone https://github.com/1014TaoTao/FastDocs.git
 ```
 
-### 本地后端启动
+### 本地后端启动（FastapiAdmin 主工程）
 
 ```sh
-#  进入后端工程目录
+# 进入 FastapiAdmin 主工程目录
+cd FastapiAdmin
+# 进入后端工程目录
 cd backend
 # 安装依赖
 pip3 install -r requirements.txt
@@ -56,9 +61,11 @@ python3 main.py upgrade --env=dev(不加默认为dev)
 
 ---
 
-### 本地前端启动
+### 本地前端启动（FastapiAdmin 主工程）
 
 ```sh
+# 进入 FastapiAdmin 主工程目录
+cd FastapiAdmin
 # 进入前端工程目录
 cd frontend
 # 安装依赖
@@ -71,29 +78,29 @@ pnpm run build
 
 ---
 
-### 本地小程序h5启动
+### 本地小程序h5启动（FastApp 移动端）
 
 ```sh
-# 进入前端工程目录
-cd fastapp
+# 进入 FastApp 移动端目录
+cd FastApp
 # 安装依赖
 pnpm install
 # 启动前端服务
 pnpm run dev:h5
-# 构建前端, 生成 `frontend/dist/build/h5` 目录
+# 构建前端, 生成 `dist/build/h5` 目录
 pnpm run build:h5
 ```
 
-### 本地项目官网启动
+### 本地项目官网启动（FastDocs 官网文档）
 
 ```sh
-# 进入前端工程目录
-cd fastdocs
+# 进入 FastDocs 官网文档目录
+cd FastDocs
 # 安装依赖
 pnpm install
 # 运行文档工程
 pnpm run docs:dev
-# 构建文档工程, 生成 `fastdocs/dist` 目录
+# 构建文档工程, 生成 `dist` 目录
 pnpm run docs:build
 ```
 
@@ -109,7 +116,9 @@ pnpm run docs:build
 ### docker 部署
 
 ```sh
-# 复制脚本 `FastapiAdmin/start.sh` 脚本文件到服务器, 并赋予执行权限
+# 进入 FastapiAdmin 主工程目录
+cd FastapiAdmin
+# 复制脚本 `start.sh` 脚本文件到服务器, 并赋予执行权限
 chmod +x start.sh
 # 执行脚本
 ./start.sh
@@ -180,25 +189,25 @@ FastapiAdmin/devops/devops/nginx/nginx.conf
 
 ## 🚀二开教程
 
-### 后端部分
+### 后端部分（FastapiAdmin 主工程）
 
-1. **编写实体类层**：在 `backend/app/api/v1/models/demo/example_model.py` 中创建 example 的 ORM 模型（对应 Spring Boot 中的实体类层）
-2. **编写数据模型层**：在 `backend/app/api/v1/schemas/demo/example_schema.py` 中创建 example 数据模型（对应 Spring Boot 中的 DTO 层）
-3. **编写查询参数模型层**：在 `backend/app/api/v1/params/demo/example_param.py` 中创建 example 的查询参数模型（对应 Spring Boot 中的 DTO 层）
-4. **编写持久化层**：在 `backend/app/api/v1/cruds/demo/example_crud.py` 中创建 example 数据层（对应 Spring Boot 中的 Mapper 或 DAO 层）
-5. **编写业务层**：在 `backend/app/api/v1/services/demo/example_service.py` 中创建 example 数据层（对应 Spring Boot 中的 Service 层）
-6. **编写接口层**：在 `backend/app/api/v1/controllers/demo/example_controller.py` 中创建 example 数据层（对应 Spring Boot 中的 Controller 层）
-7. **注册后端路由**：在 `backend/app/api/v1/urls/demo/example_url.py` 中注册 example 路由
-8. **注册路由到 FastAPI 服务中**：在 `backend/plugin/init_app.py` 中注册路由
-9. **将 demo 模块添加至系统初始化脚本**：在 `backend/app/scripts/initialize.py` 中添加（如果需要可以把 demo 的菜单权限，配置到 `backend/app/scripts/data/system_menu.json` 和 `backend/app/scripts/data/system_role_menus.json` 或从前端页面菜单中新增）
-10. **将 demo 模块添加至数据库迁移脚本中**：在 `backend/app/alembic/env.py` 中添加
+1. **编写实体类层**：在 `FastapiAdmin/backend/app/api/v1/models/demo/example_model.py` 中创建 example 的 ORM 模型（对应 Spring Boot 中的实体类层）
+2. **编写数据模型层**：在 `FastapiAdmin/backend/app/api/v1/schemas/demo/example_schema.py` 中创建 example 数据模型（对应 Spring Boot 中的 DTO 层）
+3. **编写查询参数模型层**：在 `FastapiAdmin/backend/app/api/v1/params/demo/example_param.py` 中创建 example 的查询参数模型（对应 Spring Boot 中的 DTO 层）
+4. **编写持久化层**：在 `FastapiAdmin/backend/app/api/v1/cruds/demo/example_crud.py` 中创建 example 数据层（对应 Spring Boot 中的 Mapper 或 DAO 层）
+5. **编写业务层**：在 `FastapiAdmin/backend/app/api/v1/services/demo/example_service.py` 中创建 example 数据层（对应 Spring Boot 中的 Service 层）
+6. **编写接口层**：在 `FastapiAdmin/backend/app/api/v1/controllers/demo/example_controller.py` 中创建 example 数据层（对应 Spring Boot 中的 Controller 层）
+7. **注册后端路由**：在 `FastapiAdmin/backend/app/api/v1/urls/demo/example_url.py` 中注册 example 路由
+8. **注册路由到 FastAPI 服务中**：在 `FastapiAdmin/backend/plugin/init_app.py` 中注册路由
+9. **将 demo 模块添加至系统初始化脚本**：在 `FastapiAdmin/backend/app/scripts/initialize.py` 中添加（如果需要可以把 demo 的菜单权限，配置到 `FastapiAdmin/backend/app/scripts/data/system_menu.json` 和 `FastapiAdmin/backend/app/scripts/data/system_role_menus.json` 或从前端页面菜单中新增）
+10. **将 demo 模块添加至数据库迁移脚本中**：在 `FastapiAdmin/backend/app/alembic/env.py` 中添加
 
-### 前端部分
+### 前端部分（FastapiAdmin 主工程）
 
-1. **前端接入后端接口地址**：在 `frontend/src/api/demo/example.ts` 中配置
-2. **编写前端页面**：在 `frontend/src/views/demo/example/index.vue` 中编写
+1. **前端接入后端接口地址**：在 `FastapiAdmin/frontend/src/api/demo/example.ts` 中配置
+2. **编写前端页面**：在 `FastapiAdmin/frontend/src/views/demo/example/index.vue` 中编写
 
-### 移动端部分
+### 移动端部分（FastApp 移动端）
 
-1. **移动端接入后端接口地址**：在 `fastapp/src/api` 中编写
-2. **编写移动端页面**：在 `fastapp/src/pages` 中编写
+1. **移动端接入后端接口地址**：在 `FastApp/src/api` 中编写
+2. **编写移动端页面**：在 `FastApp/src/pages` 中编写

@@ -51,3 +51,23 @@
   }
 }
 
+/* 图片放大功能样式优化 */
+.vp-doc img:not(.logo):not([alt*="badge"]):not([alt*="Badge"]):not([alt*="Stars"]):not([alt*="License"]):not([alt*="Python"]):not([alt*="NodeJS"]):not([alt*="MySQL"]):not([alt*="Redis"]) {
+  cursor: zoom-in;
+  transition: opacity 0.3s ease;
+}
+
+.vp-doc img:not(.logo):not([alt*="badge"]):not([alt*="Badge"]):not([alt*="Stars"]):not([alt*="License"]):not([alt*="Python"]):not([alt*="NodeJS"]):not([alt*="MySQL"]):not([alt*="Redis"]):hover {
+  opacity: 0.9;
+}
+
+/* medium-zoom 覆盖层样式 */
+.medium-zoom-overlay {
+  z-index: 999;
+}
+
+.medium-zoom-image {
+  z-index: 1000;
+  border-radius: 4px;
+}
+

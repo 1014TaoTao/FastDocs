@@ -1206,7 +1206,7 @@ const handleSearch = () => {
 
 ```bash
 # 进入项目目录
-cd frontend
+cd FastapiAdmin/frontend
 
 # 安装依赖（推荐使用 pnpm）
 pnpm install
