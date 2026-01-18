@@ -601,7 +601,7 @@ volumes:
 
 1. **克隆项目**
    ```bash
-   git clone https://gitee.com/tao__tao/FastapiAdmin.git
+   git clone https://gitee.com/fastapiadmin/FastapiAdmin.git
    ```
 
 2. **进入后端目录**

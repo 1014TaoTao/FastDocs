@@ -58,7 +58,7 @@ graph TB
 
 ## 💪团队我们有
 ### ⚓项目的"定海神针"
-[@1014TaoTao](https://gitee.com/tao__tao)深耕高精尖技术行业数十年，有着丰富的代码经验，作为团队的核心带头人，他不仅是技术深耕者，更是开源精神的践行者，常常凌晨仍在代码库中打磨功能、优化架构，为项目锚定清晰的发展方向。面对开发者的疑问，他总能耐心答疑、分享经验，从技术选型到难题攻克全程把关；同时，他也积极营造活跃的交流氛围，让团队与社区的每一次探讨都能转化为项目迭代的动力。
+[@fastapiadmin](https://gitee.com/fastapiadmin)深耕高精尖技术行业数十年，有着丰富的代码经验，作为团队的核心带头人，他不仅是技术深耕者，更是开源精神的践行者，常常凌晨仍在代码库中打磨功能、优化架构，为项目锚定清晰的发展方向。面对开发者的疑问，他总能耐心答疑、分享经验，从技术选型到难题攻克全程把关；同时，他也积极营造活跃的交流氛围，让团队与社区的每一次探讨都能转化为项目迭代的动力。
 ### 🛠️高性能架构的"搭建者"与"塑造者"
 团队专注于打造高性能、高安全的异步架构，将大哥的思想进行逐步落实。把流畅交互与友好体验融入架构设计，小到主题切换细节，大到多端适配逻辑，都力求精准呈现产品价值。在完成代码开发的同时，团队更主动肩负社群答疑责任 —— 无论是技术群里开发者遇到的二次开发难题，还是使用过程中碰到的功能适配问题，成员都会及时响应、分享解决方案，用专业与耐心搭建起项目与用户之间的信任桥梁，**让开源不仅是代码的共享，更是技术与经验的互助传递。**
 
@@ -70,10 +70,10 @@ graph TB
 
 📌 **项目地址**：
 - **GitHub**：
-  - [FastapiAdmin 主工程](https://github.com/1014TaoTao/FastapiAdmin.git)
-  - [FastApp 移动端](https://github.com/1014TaoTao/FastApp.git)
-  - [FastDocs 官网文档](https://github.com/1014TaoTao/FastDocs.git)
-- **Gitee**：[https://gitee.com/tao__tao/FastapiAdmin](https://gitee.com/tao__tao/FastapiAdmin)
+  - [FastapiAdmin 主工程](https://github.com/fastapiadmin/FastapiAdmin.git)
+  - [FastApp 移动端](https://github.com/fastapiadmin/FastApp.git)
+  - [FastDocs 官网文档](https://github.com/fastapiadmin/FastDocs.git)
+- **Gitee**：[https://gitee.com/fastapiadmin/FastapiAdmin](https://gitee.com/fastapiadmin/FastapiAdmin)
 - [联系 or 加入我们](about.md#关于我们)
 
 🙌 **无论你是否喜欢这个项目，都希望你能够给个 ⭐ Star 支持！小小的种子蕴含着大大的能量，终有一天星星之火，可以燎原。**

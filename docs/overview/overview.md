@@ -11,10 +11,10 @@ outline: "deep"
   <h3>一套现代、开源、全栈融合的中后台快速开发平台</h3>
   <p>如果你喜欢这个项目，给个 ⭐️ 支持一下吧！</p>
   <p align="center" style="display: flex; justify-content: center; align-items: center; margin-top: 10px;">
-    <a href="https://gitee.com/tao__tao/FastapiAdmin"><img src="https://gitee.com/tao__tao/FastapiAdmin/badge/star.svg?theme=dark" alt="Gitee Stars"></a>
-    <a href="https://github.com/1014TaoTao/FastapiAdmin"><img src="https://img.shields.io/github/stars/1014TaoTao/FastapiAdmin?style=social" alt="GitHub Stars"></a>
-    <a href="https://github.com/1014TaoTao/FastApp"><img src="https://img.shields.io/github/stars/1014TaoTao/FastApp?style=social" alt="FastApp Stars"></a>
-    <a href="https://github.com/1014TaoTao/FastDocs"><img src="https://img.shields.io/github/stars/1014TaoTao/FastDocs?style=social" alt="FastDocs Stars"></a>
+    <a href="https://gitee.com/fastapiadmin/FastapiAdmin"><img src="https://gitee.com/fastapiadmin/FastapiAdmin/badge/star.svg?theme=dark" alt="Gitee Stars"></a>
+    <a href="https://github.com/fastapiadmin/FastapiAdmin"><img src="https://img.shields.io/github/stars/fastapiadmin/FastapiAdmin?style=social" alt="GitHub Stars"></a>
+    <a href="https://github.com/fastapiadmin/FastApp"><img src="https://img.shields.io/github/stars/fastapiadmin/FastApp?style=social" alt="FastApp Stars"></a>
+    <a href="https://github.com/fastapiadmin/FastDocs"><img src="https://img.shields.io/github/stars/fastapiadmin/FastDocs?style=social" alt="FastDocs Stars"></a>
     <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-orange.svg" alt="License"></a>
     <img src="https://img.shields.io/badge/Python-≥3.10-blue" alt="Python">
     <img src="https://img.shields.io/badge/NodeJS-≥20.0-blue" alt="NodeJS">

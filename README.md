@@ -6,22 +6,27 @@ FastDocs是FastapiAdmin 官网文档，该项目是一套完全开源的快速�
 
 ```sh
 FastDocs/
-├─ .vitepress           # 静态资源文件
-│  ├─ cache             # 缓存
-│  ├─ theme             # 主题
-│  └─ config.ts         # 配置文件
+├─ .vitepress           # VitePress配置
+│  ├─ theme             # 主题配置
+│  │  ├─ index.ts       # 主题入口
+│  │  └─ style.css      # 主题样式
+│  └─ config.ts         # 主配置文件
 ├─ src                  # 源代码
-│  ├─ development/      # 开发文档
-│  │  ├─ backend.md     # 后端文档
-│  │  └─ frontend.md    # 前端文档
-│  ├─ index.md          # 首页
-│  ├─ overview/         # 概述文档
-│  │  ├─ about.md       # 关于
-│  │  ├─ overview.md    # 概述
-│  │  └─ why.md         # 为什么选择
+│  ├─ en                # 英文文档
+│  │  ├─ development/   # 开发文档
+│  │  ├─ overview/      # 概述文档
+│  │  ├─ quickstart/    # 快速开始
+│  │  └─ index.md       # 英文首页
+│  ├─ zh                # 中文文档
+│  │  ├─ development/   # 开发文档
+│  │  ├─ overview/      # 概述文档
+│  │  ├─ quickstart/    # 快速开始
+│  │  └─ index.md       # 中文首页
 │  ├─ public/           # 公共资源
-│  └─ quickstart/       # 快速开始
-│     └─ start.md       # 开始指南
+│  └─ index.md          # 重定向首页
+├─ .eslintrc.js         # ESLint配置
+├─ .prettierrc.js       # Prettier配置
+├─ .gitignore           # Git忽略文件
 ├─ LICENSE              # 许可证
 ├─ package.json         # 项目依赖文件
 └─ README.md            # 项目说明文档
@@ -32,12 +37,12 @@ FastDocs/
 
 | 平台 | 仓库地址 |
 |------|----------|
-| GitHub | [FastapiAdmin主工程](https://github.com/1014TaoTao/FastapiAdmin.git) \| [FastDocs官网](https://github.com/1014TaoTao/FastDocs.git) \| [FastApp移动端](https://github.com/1014TaoTao/FastApp.git) |
-| Gitee  | [FastapiAdmin主工程](https://gitee.com/tao__tao/FastapiAdmin.git) \| [FastDocs官网](https://gitee.com/tao__tao/FastDocs.git) \| [FastApp移动端](https://gitee.com/tao__tao/FastApp.git) |
+| GitHub | [FastapiAdmin主工程](https://github.com/fastapiadmin/FastapiAdmin.git) \| [FastDocs官网](https://github.com/fastapiadmin/FastDocs.git) \| [FastApp移动端](https://github.com/fastapiadmin/FastApp.git) |
+| Gitee  | [FastapiAdmin主工程](https://gitee.com/fastapiadmin/FastapiAdmin.git) \| [FastDocs官网](https://gitee.com/fastapiadmin/FastDocs.git) \| [FastApp移动端](https://gitee.com/fastapiadmin/FastApp.git) |
 
 ## 官网展示
 
-![在线文档](https://gitee.com/tao__tao/FastDocs/raw/main/src/public/help.png)
+![在线文档](https://gitee.com/fastapiadmin/FastDocs/raw/main/src/public/help.png)
 
 ## 快速开始
 

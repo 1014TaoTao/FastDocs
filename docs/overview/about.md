@@ -15,17 +15,17 @@ title: 关于我们
 
 ### 核心成员
 
-- **[@1014TaoTao](https://gitee.com/tao__tao)** - 项目创始人，深耕高精尖技术行业数十年
+- **[@fastapiadmin](https://gitee.com/fastapiadmin)** - 项目创始人，深耕高精尖技术行业数十年
 
 ## 🌐 社区
 
 ### GitHub
-- [FastapiAdmin 主工程](https://github.com/1014TaoTao/FastapiAdmin.git)
-- [FastApp 移动端](https://github.com/1014TaoTao/FastApp.git)
-- [FastDocs 官网文档](https://github.com/1014TaoTao/FastDocs.git)
+- [FastapiAdmin 主工程](https://github.com/fastapiadmin/FastapiAdmin.git)
+- [FastApp 移动端](https://github.com/fastapiadmin/FastApp.git)
+- [FastDocs 官网文档](https://github.com/fastapiadmin/FastDocs.git)
 
 ### Gitee
-- [FastapiAdmin](https://gitee.com/tao__tao/FastapiAdmin)
+- [FastapiAdmin](https://gitee.com/fastapiadmin/FastapiAdmin)
 - [GitCode](https://gitcode.com/qq_36002987/FastapiAdmin)
 
 ## 扫码交流

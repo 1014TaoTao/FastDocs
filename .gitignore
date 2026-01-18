@@ -7,22 +7,66 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependencies
 node_modules
-.DS_Store
+.pnp
+.pnp.js
+
+# Testing
+coverage
+*.lcov
+
+# Production
 dist
+dist-ssr
 *.local
-.history
 
 # Editor directories and files
+.vscode/*
+!.vscode/extensions.json
 .idea
+.DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
 
-launch.json
-.hbuilderx
-pnpm-lock.yaml
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-.vitepress/cache/*
+# Build files
+.cache
+.parcel-cache
+.next
+.nuxt
+.vuepress/dist
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+
+# Package manager
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# Temporary files
+*.tmp
+*.temp
+.temp
+.tmp
+
+# VitePress
+.vitepress/cache
+.vitepress/dist
