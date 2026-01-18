@@ -42,7 +42,7 @@ FastDocs/
 
 ## 官网展示
 
-![在线文档](https://gitee.com/fastapiadmin/FastDocs/raw/main/src/public/help.png)
+![在线文档](https://gitee.com/fastapiadmin/FastDocs/raw/main/docs/public/help.png)
 
 ## 快速开始
 
